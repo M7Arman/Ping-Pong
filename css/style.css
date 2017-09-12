@@ -1,0 +1,53 @@
+h1 {
+	text-align: center;
+	color: #ABC;
+}
+
+#gboard {
+	position: relative;
+	background: white;
+	width: 80%;
+	margin: 0 auto;
+	height: 600px;
+    border-color: black;
+    border-style: dashed;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+span.score {
+    margin-left: 20px;
+    color: #7698b9;
+    font-size: xx-large;
+}
+
+#scores {
+	text-align: center;
+}
+
+.player {
+	width: 10px;
+	height: 100px;
+	background: red;
+	position: absolute;
+    top: 0;
+}
+
+#player1 {
+	left: 0;
+}
+
+#player2 {
+	right: 0;
+}
+
+#ball {
+  background: grey;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 290px;
+  top: 140px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
